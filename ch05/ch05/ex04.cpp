@@ -4,14 +4,24 @@ int main() {
     int n;
     int arr[1000];
 
-    printf("ÀÔ·ÂÇÒ ¼ıÀÚÀÇ °³¼ö : ");
+    printf("ì…ë ¥í•  ìˆ«ìì˜ ê°œìˆ˜ : ");
     scanf("%d", &n);
-    printf("¼ıÀÚ %d°³¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ", n);
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
+    printf("ìˆ«ì %dê°œë¥¼ ì…ë ¥í•˜ì„¸ìš” : ", n);
+    //for (int i = 0; i < n; i++) {
+        //scanf("%d", &arr[i]);
+    //}
+    int i = 0;
+    while(i< n) {
+    i++;
+    scanf(%d,&arr[i]);
     }
 
-    for (int i = n - 1; i >= 0; i--) {
-        printf("%d ", arr[i]);
-    }
+    //for (int i = n - 1; i >= 0; i--) {
+        //printf("%d ", arr[i]);
+    //}
+    int i = n -1;
+    while(i >= 0) {
+    i--;
+   printf(%d,arr[i]);
+   }
 }
